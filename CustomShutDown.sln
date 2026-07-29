@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomShutDown", "CustomShutDown.csproj", "{34AF4B0B-BB23-43C6-BBD4-52BF034CA386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34AF4B0B-BB23-43C6-BBD4-52BF034CA386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AF4B0B-BB23-43C6-BBD4-52BF034CA386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AF4B0B-BB23-43C6-BBD4-52BF034CA386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AF4B0B-BB23-43C6-BBD4-52BF034CA386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F91DFF7-1BB9-45ED-95DF-C76097EBEFA1}
+	EndGlobalSection
+EndGlobal

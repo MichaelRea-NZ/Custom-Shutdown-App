@@ -1,0 +1,50 @@
+﻿<Window x:Class="CustomShutDown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Text="Custom Shutdown"
+                   FontSize="24" FontWeight="Bold"
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Video Selection Section -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,20">
+            <TextBlock Text="Selected Video:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBlock Text="{Binding SelectedVideoName}"
+                       Foreground="Gray" Margin="0,0,0,10"/>
+            <Button Content="Select Video File"
+                    Command="{Binding SelectVideoCommand}"
+                    Width="150" Height="35"/>
+        </StackPanel>
+
+        <!-- Separator -->
+        <Separator Grid.Row="2" Margin="0,10"/>
+
+        <!-- Action Buttons -->
+        <StackPanel Grid.Row="3" VerticalAlignment="Center">
+            <TextBlock Text="Choose Action:" FontSize="16" FontWeight="Bold"
+                       Margin="0,0,0,15" HorizontalAlignment="Center"/>
+
+            <Button Content="💤 Sleep" Command="{Binding SleepCommand}"
+                    Height="50" Margin="0,5" FontSize="14"/>
+
+            <Button Content="🔄 Restart" Command="{Binding RestartCommand}"
+                    Height="50" Margin="0,5" FontSize="14"/>
+
+            <Button Content="⏻ Shutdown" Command="{Binding ShutdownCommand}"
+                    Height="50" Margin="0,5" FontSize="14"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
