@@ -32,23 +32,5 @@ Potential improvements:
  Countdown timer.
  Logging functionality.
 
-CustomShutDown/
-├── Strategies/
-│   ├── IShutdownStrategy.cs          # Strategy pattern interface
-│   ├── ShutdownStrategy.cs           # Shutdown implementation
-│   ├── RestartStrategy.cs            # Restart implementation
-│   └── SleepStrategy.cs              # Sleep implementation
-├── Services/
-│   ├── IVideoPlayerService.cs        # Video playback interface
-│   ├── VideoPlayerService.cs         # WPF MediaElement implementation
-│   ├── ISystemCommandService.cs      # System command interface
-│   ├── SystemCommandService.cs       # Windows command implementation
-│   └── SystemCommand.cs              # Enum: Shutdown, Restart, Sleep
-├── ViewModels/
-│   ├── MainViewModel.cs              # MVVM ViewModel
-│   └── RelayCommand.cs               # ICommand helper
-├── Views/
-│   └── MainWindow.xaml               # Main UI
-└── ShutdownVideo.mp4                 # Your custom video file
 <img width="599" height="346" alt="image" src="https://github.com/user-attachments/assets/fab83e91-add1-44b7-b9b3-59123f2ffe0d" />
 
