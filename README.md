@@ -14,7 +14,7 @@ Strategy Pattern
 IShutdownStrategy interface with three concrete implementations.
 Runtime strategy selection based on user choice.
 Clean separation of algorithm variants.
-Allows for future strategies to be added, eg. Update and Restart.
+Allows for future strategies to be added, e.g. Update and Restart.
 
 MVVM Architecture
 Model: Services and Strategies (business logic).
