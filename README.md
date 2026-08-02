@@ -50,3 +50,5 @@ CustomShutDown/
 ├── Views/
 │   └── MainWindow.xaml               # Main UI
 └── ShutdownVideo.mp4                 # Your custom video file
+<img width="599" height="346" alt="image" src="https://github.com/user-attachments/assets/fab83e91-add1-44b7-b9b3-59123f2ffe0d" />
+
